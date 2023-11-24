@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-sep-2021, 17:06:15
+    Author     : EQUIPO
+*/
+
+/*Se define las caracteristicas que va regir en absolutamente toda la página*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Contenedor de toda la navbar*/
+.navbar {
+    background-color: #33322C;
+    padding: 1rem;
+    height: auto !important;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    border: 3px solid #C2A10E;
+}
+
+/*Contenedor de botones navbar*/
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:0;
+}
+
+/*Logo de LastPlay*/
+.navbar-header{
+    padding : 0 10px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none ;
+}
+
+/*Texto de navbar-header*/
+.navbar-header p{
+    margin-bottom: 0;
+
+}
+
+/*Icono usuario*/
+.fa-user{
+    height: 15px;
+    width: 10px;
+}
+
+/*Iconos*/
+.icons {
+    font-size: 24px !important;
+    color: white !important;
+    padding: 6px 2px !important; 
+}
+
+/*Animación de iconos*/
+.icons::hover{
+    color: gray;
+}
+
+/*Botones navbar*/
+.botones-navbar{
+    display: flex;
+    justify-content: center;
+    float:left;
+}
+.botones-navbar1{
+    display: flex;
+    justify-content: center;
+    float:left;
+}
+/*Botones navbar*/
+
+/*Modal*/
+.modal-header{
+    background-color: #33322C;
+    color : white;
+}
+
+.modal-footer a{
+    background-color: #33322C;
+    border-color: #C2A10E !important;
+}
+/*Modal*/
+
+/*Contenedor responsive de todos los iconos*/
+.navbar-collapse{
+    flex-grow: 0 !important;
+}

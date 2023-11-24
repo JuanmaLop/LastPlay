@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-oct-2021, 20:23:59
+    Author     : EQUIPO
+*/
+
+/*Se define las caracteristicas que va regir en absolutamente toda la página*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Titulos*/
+h1{
+    color: #FFF;
+    text-align: center;
+}
+
+h5{
+    color: #FFF;
+    text-align: center;
+}
+
+/*Todos los inputs que se utilicen en el formulario*/
+input{
+    border: 2px solid #c2a20e;
+    border-radius: 6px;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 1.5rem;
+}
+
+.titulo-input{
+    color: #FFF;
+}
+
+/*Div que contiene el contenido principal de la página*/
+.body-registro-cliente{
+    background-color: #1c1c1c !important;
+    border: 2px solid #c2a20e;
+    padding: 2rem; 
+    width: auto;
+    height: auto;
+}
+
+/*Lado izquierdo del formulario de RegistroCliente*/
+.left-column{
+    float: left;
+    width: 47%;
+    margin-right: 6%;
+}
+
+/*Lado derecho del formulario de RegistroCliente*/
+.right-column{
+    float: left;
+    width: 47%;
+}
+
+/*Todos los select que se usan en el formulario*/
+select{
+    height: 35px;
+    border-radius: 6px;
+    width: 100%;
+    border: 2px solid brown;
+    margin-bottom: 1.5rem;
+}
+
+/*Boton para concluir el registro*/
+.terminar-btn input{
+    margin-left: 37.5%;
+    width: 25%;
+
+}
+
+/*Alertas*/
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+/*Alertas*/

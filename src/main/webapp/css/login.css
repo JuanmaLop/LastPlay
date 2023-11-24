@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31/08/2021, 10:51:44 AM
+    Author     : SENA
+*/
+
+/*Se define las caracteristicas que va regir en absolutamente toda la página*/
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Cuerpo de la página*/
+body{
+    background-color: #1c1c1c !important;
+}
+
+/*Contenedores principales */
+.container{
+    margin-top:0rem;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/*Alertas*/
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+/*Alertas*/
+
+/*Contenedores principales*/
+#container{
+    height:auto;
+    width:48%;
+}
+
+/*Responsive de los contenedores principales*/
+@media (max-width: 624px){ 
+#container{
+    height:auto;
+    width:100%;
+} 
+.container{
+    margin-top:2rem;
+    
+    padding: 0px;
+    border-radius: 5px;
+}}  
+/*Responsive de los contenedores principales*/
+
+/*Todos los inputs que se utilicen en el formulario*/
+input{
+    padding-bottom: 1rem;
+}
+
+/*Botones*/
+.a .btn .btn-info{
+    width: 5rem;
+}
+
+.btnin{
+    color: #fff;
+    background-color: #c2a20e;
+    border-color: #c2a20e;
+}
+
+/*Alertas*/
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+/*Alertas*/

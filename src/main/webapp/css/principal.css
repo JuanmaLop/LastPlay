@@ -1,0 +1,83 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22/11/2023, 9:48:01 p. m.
+    Author     : juani
+*/
+
+body{
+    background-color: #1c1c1c;
+}
+
+.slide-principal{
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+/*Contenedor del titulo del aside*/
+.functitulo {
+    padding: 10px 15px;
+    background-color: #33322C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 3px solid #C2A10E;
+    border-bottom: 3px solid #C2A10E;
+    border-right: 3px solid #C2A10E;
+}
+
+/*Titulo del aside*/
+.functitulo h1 {
+    margin-bottom: 0 !important;
+    color: #C2A10E;
+    font-size: 32px !important;
+}
+
+/*Ul del aside categorías*/
+.slide-principal ul{
+    color: white;
+    padding-top: 10px;
+    padding-right: 3rem;
+    padding-bottom: 10px;
+    font-size: 22px;
+    border-left: 3px solid #C2A10E;
+    border-bottom: 3px solid #C2A10E;
+    border-right: 3px solid #C2A10E;    
+}
+
+/*Lista del aside categorías*/
+.slide-principal ul li {
+    margin-bottom: 10px;
+}
+
+/*Links de cada categoría en el aside categorías*/
+.slide-principal ul li button{
+    border:none;
+    background:white;
+}
+
+/*Animacion de los links de cada categoría*/
+.slide-principal ul li button:hover{
+    border:none;
+    background:white;
+    color:#C2A10E;
+}
+
+/*Titulos en principal*/
+.welcome {
+    color: white;
+    font-size: 65px; 
+    text-align: center;    
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+}
+
+.welcome2 {
+    color: white;
+    text-align: center;    
+    font-family: 'Montserrat', sans-serif;
+}
+
